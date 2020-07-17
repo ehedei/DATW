@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ehedei Hernández García">
+    <script async src="E10Ehedei.js"></script>
+    <title>Prácticas DATW</title>
+  </head>
+
+  <body>
+    <h1>E10: Almacenamiento de datos en listas.</h1>
+    <pre>Crear una página html que tenga dos campos input numéricos y un botón realizar operaciones.
+      Cuando se pulse realizar operaciones se mostrará un único alert con los resultados de todas las operaciones tipo: Los resultados de las operaciones son: num1/num2=resultado,num1+num2=resultado...
+      Debemos obtener los datos y crear una lista vacía de resultados que almacenará los resultados de las operaciones.
+      Todas las operaciones deben estar separadas.
+      Para todo ello podemos utilizar los procedimientos o las funciones que consideremos necesarias.
+      Ayuda: Para el alert necesitaremos una función que recorra nuestra lista de resultados y nos muestre el contenido.</pre>
+    
+      <form>
+        <p>Inserte los números para calcular. Recuerde que en algunas operaciones el orden sí altera el resultado.</p>
+        <div>
+          <label for="input-1">Inserte un número: </label>
+          <input type="number" name="input-1" id="input-1" step="1" placeholder="Primer número"/>
+        </div>
+        <div>
+          <label for="input-1">Inserte un número: </label>
+          <input type="number" name="input-2" id="input-2" step="1" placeholder="Segundo número"/>
+        </div>
+        <button type="reset" id="reset">Limpiar</button>
+        <button id="boton">Calcular</button>
+    </form>
+    
+
+  </body>
+
+</html>
