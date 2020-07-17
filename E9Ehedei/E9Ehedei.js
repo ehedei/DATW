@@ -1,6 +1,6 @@
 let validar = (evento) => {
     evento.preventDefault();
-    let cadena = document.getElementById('input').value;
+    let cadena = document.getElementById('input').value.trim();
     if (cadena.length >= 6 && cadena.includes(' ')) {
         document.getElementById('input').style.backgroundColor = 'palegreen';        
         alert("¡Cadena de texto validada!");
