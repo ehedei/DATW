@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ehedei Hernández García">
+    <link rel="stylesheet" href="E11Ehedei.css">
+    <script async="async" src="E11Ehedei.js"></script>
+    <title>Prácticas DATW</title>
+  </head>
+
+  <body>
+    <h1>E11: Gestión de eventos</h1>
+    <pre>crear  un programa que contiene un formulario con diversos campos:
+
+      un input  y un botón que  borre el nombre almacenado.
+      
+      un vínculo a una página de libre elección y una casilla de verificación, cuando la casilla esté marcada se abra en una ventana nueva y en caso contrario en la misma.
+      
+      una imagen y dos botones uno que la oculte y otro que la muestre.
+      
+      un campo de texto y un botón.al pulsar el botón debe mostrar una alerta con el texto introducido.
+      
+      un campo de texto y un botón. al pulsar el botón debe cambiar  el color de fondo de la página al color indicado en el campo texto.
+      
+      una lista desplegable con los valores “red, blue y yellow. al cambiar el valor seleccionado debe cambiar el color de fondo de la página.
+      
+      
+      nota: ¿crees que es necesario solamente js? ¿podrías hacer alguna de las modificaciones en css? justifica tu respuesta en la parte de escribir de la entrega. 
+      </pre>
+    <div>
+      <div>
+        <label for="input-1">Inserte texto: 
+        </label>
+        <input type="text" name="input-1" id="input-1" placeholder="Escriba aquí"/>
+        <button id="borrar">Borrar</button>
+      </div>
+      <div>
+        <label for="input">Seleccione esta casilla si desea que el link se abra en una nueva ventana:
+        </label>
+        <input type="checkbox" name="input-2" id="input-2"/>
+        <a href="https://www.google.es" id="link" title="Google">Link</a>
+      </div>
+      <div>
+        <button id="ocultar">Ocultar</button>
+        <img src="tardis.jpg" id="imagen" alt="Tardis" title="Tardis"/> 
+        <button id="mostrar">Mostrar</button>
+      </div>
+      <div>
+        <label for="input-3">Inserte un texto:  
+        </label>
+        <input type="text" name="input-3" id="input-3"/>
+        <button id="mostrarAlerta">Mostrar alerta</button>
+      </div>
+      <div>
+        <label for="input-4">Inserte el color que desea: 
+        </label>
+        <input type="color" name="input-4" id="input-4"/>
+        <button id="cambiarColor">Cambiar color del fondo</button>
+      </div>
+      <div>
+        <select name="colores" id="colores">
+          <option value="red">Rojo</option>
+          <option value="blue">Azul</option>
+          <option value="yellow">Amarillo</option>
+        </select>
+      </div>
+    </div>
+
+  </body>
+
+</html>
