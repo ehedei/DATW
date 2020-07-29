@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ehedei Hernández García">
+    <link rel="stylesheet" href="E12Ehedei.css">
+    <script async="async" src="E12Ehedei.js"></script>
+    <title>Prácticas DATW</title>
+  </head>
+
+  <body>
+    <h1>E12: Gestión de errores</h1>
+    <pre>
+      El alumnado tendrá que crear un formulario con dos campos que permita:
+
+      Encontrar el texto más largo de los introducidos en los dos campos de texto.
+      
+      Concatenarlos.
+      
+      Para seleccionar la operación que hay que realizar se puede usar una lista desplegable o botones de radio o etc.
+      
+      En ambos casos:
+      
+      Se informará del resultado de la operación añadiendo un nuevo párrafo dentro de un div de resultados que se situará en la parte de abajo de la página. Los resultados anteriores no deben borrarse.
+      
+      Si alguno de los campos está vacío, se considerará un error y se comunicará mediante una alarma.
+    </pre>
+    <form>
+      <div>
+        <div>
+          <label for="input-1">Inserte texto 1: </label>
+          <input type="text" name="input-1" id="input-1" placeholder="Escriba aquí"/>
+        </div>
+        <div>
+          <label for="input-2">Inserte texto 2: </label>
+          <input type="text" name="input-2" id="input-2" placeholder="Escriba aquí"/>
+        </div>
+        <select name="opciones" id="opciones">
+          <option value="comparar">Comparar longitud del texto</option>
+          <option value="concatenar">Concatenar los textos</option>
+        </select>
+        <button id="boton" type="button">Proceder</button>
+        <button id="borrar" type="button">Borrar todo</button>
+      </div>
+
+    </form>
+    <div id="container"></div>
+
+  </body>
+
+</html>
