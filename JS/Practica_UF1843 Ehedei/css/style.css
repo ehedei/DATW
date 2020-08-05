@@ -1,0 +1,8 @@
+
+.photo-container {
+    box-sizing: border-box;
+    border-radius: 1.3rem;
+    -webkit-box-shadow: 8px 8px 13px 0px rgba(0,0,0,0.53);
+    -moz-box-shadow: 8px 8px 13px 0px rgba(0,0,0,0.53);
+    box-shadow: 8px 8px 13px 0px rgba(0,0,0,0.53);
+}
